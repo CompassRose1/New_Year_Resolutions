@@ -1,3 +1,8 @@
+
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+
 resolutions <- read.csv('Full_New_Years_Resolutions_Gender_Age_Breakdown-2.csv')
 print(head(resolutions))
 
